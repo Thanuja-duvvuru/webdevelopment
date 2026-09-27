@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+nav {
+  background-color: #690957;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #8a1e58, #c20bf5);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero button,
+.match-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#matches {
+  padding: 40px;
+  text-align: center;
+}
+
+.matches {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.match-card {
+  background-color: white;
+  width: 250px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.match-card h2 {
+  color: #690957;
+}
+
+.match-card button {
+  background-color: #690957;
+  color: white;
+}
